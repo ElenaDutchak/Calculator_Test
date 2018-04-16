@@ -8,7 +8,6 @@ public class Calculator {
         this.first = first;
         this.second = second;
     }
-
     public int getResult(){
         return first * second;
     }
