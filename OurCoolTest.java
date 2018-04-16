@@ -12,7 +12,6 @@ public class OurCoolTest {
     public void before() {
         System.out.println("Before class method");
     }
-
     @Test
     public void checkParameters() {
         System.out.println("Test method");
@@ -20,7 +19,6 @@ public class OurCoolTest {
         int result = calculator.getResult();
         assertTrue("Результат(" + result + ") не равен 4", result == 4);
     }
-
     @Test
     public void checkMoreParameters() {
         System.out.println("Second test method");
@@ -28,7 +26,6 @@ public class OurCoolTest {
         int result = calculator.getResult();
         assertTrue("Результат(" + result + ") не равен 9", result == 9);
     }
-
     @AfterClass
     public void after() {
         System.out.println("After class method");
